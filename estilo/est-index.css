@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background: url('../midias/fotoInicial.jpg') ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo{
+    margin: 60px auto;
+    background-color: rgba(64, 64, 240, 0.589);
+    width: 800px;
+    height: fit-content;
+    padding: 20px 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h4{
+    color: rgb(189, 224, 255);
+}
+
+.dados{
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+input{
+    background: none;
+    width: 350px;
+    height: 30px;
+    border: 2px solid rgb(189, 224, 255);
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+}
+
+input::placeholder{
+    color: rgb(49, 49, 49)
+}
+
+input:hover{
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15em;
+    background-color: black;
+    color: rgb(189, 224, 255);
+    margin: 15px 0px;
+}
+
+button:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+p{
+    margin: 2px 0;
+    color: rgb(189, 224, 255);
+    font-weight: 500;
+}
